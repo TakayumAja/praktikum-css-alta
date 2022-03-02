@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Salbo 27px";
+  src: url(https://fonts.googleapis.com/css?family=Slabo+27px)
+    format("truetype");
+}
+
+body {
+  font-family: "Slabo 27px", serif;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.card-f {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-s {
+  margin-top: 40px;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  width: 350px;
+  height: 350px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
